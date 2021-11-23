@@ -1,0 +1,97 @@
+body{
+    background-color: #B91646;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.padre{
+    background-color: #DFD8CA;
+    margin: 300px;
+    width: 50%;
+    height: 900px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 2px black; 
+    
+    
+}
+.imagen{
+    
+    height: 350px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    }
+    
+    img{
+    width: 30%; 
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: transparent;
+    }
+    h1{
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    h2{
+        text-align: center;
+
+    }
+    p{
+        text-align:center;
+        font-size: 25px;
+    }
+    .secciones{
+        justify-content: space-evenly;
+        display: flex;
+    }
+    .star{
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 2px;
+        
+    }
+    .star:hover{
+        background-color: #B91646;
+    }
+    .mer{
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 2px;
+    }
+    .mer:hover{background-color: #B91646;}
+    .sci{
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 2px;
+    }
+    .sci:hover{background-color: #B91646;}
+    .precio{
+        text-align: center;
+        font-size: 40px;
+
+    }
+    .comprar{
+        text-align:center;
+       padding: 10px;
+        width: 150px;
+        border-radius: 15px;
+        border: 1px solid black;
+        margin-left: 290px;
+        margin-top: 20px;
+        text-decoration: none;
+        background-color:#105652; 
+        font-size: 20px;
+    }
+    .comprar:hover{background-color: #B91646;}
+    
+    a{
+        text-decoration: none;
+        color: black;
+    }

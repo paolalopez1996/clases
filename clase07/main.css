@@ -1,0 +1,22 @@
+.parent{
+    border: 2px black dotted;
+    display: inline-block;
+}
+.box{
+    display: inline-block;
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+}
+#two{
+    background-color: green;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+#twoabsolute{
+    background-color: hotpink;
+    position: absolute;
+    top: 600px;
+    left: 250px;
+}

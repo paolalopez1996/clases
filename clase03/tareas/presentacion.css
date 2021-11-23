@@ -1,0 +1,25 @@
+h1{
+    background-color: darkgray;
+    color: hsl(155, 47%, 16%);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 120px;
+    font-weight: 900;
+  }
+  p{
+      font-size: 48px;
+      font-family: Montserrat;
+      font-weight: 600;
+      background-color: #FFDEFA;
+  }
+  .programacion{
+      color: #316B83
+  }
+  .argentina{
+      color: darkmagenta;
+  }
+  .ingles{
+      color: darkred;
+  }
+  .pro{
+      color: deeppink;
+  }

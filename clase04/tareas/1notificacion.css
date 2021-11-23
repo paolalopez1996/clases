@@ -1,0 +1,48 @@
+body{
+    background-color: #FBFBFB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.padre{
+    background: #c2e59c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width:  30%;
+    height: 30%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 450px;
+    margin-top: 250px;
+    border: 2px solid pink;
+    border-radius: 15px;
+    box-shadow: 10px -10px 2px 2px #D8B6A4;
+    padding: 20px 20px 20px 20px;
+    
+}
+p{
+    text-align: justify;
+}
+
+.campana{
+    font-size: 40px;
+    
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #B4C0D8;
+}
+
+.signup{
+    display: inline-block;
+    
+    border-radius: 5px;
+    background-color: black;
+    font-size: 30px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}

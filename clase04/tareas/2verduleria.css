@@ -1,0 +1,28 @@
+body{
+    background: #CDF2CA;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.padre{
+    display: inline-block;
+    margin: 550px;
+    margin-top: 150px;
+    box-sizing: content-box;
+    padding: 20px;
+    background-color: #FCFFA6;
+    text-align: center;
+    border: 5px solid palevioletred;
+    border-radius: 20px;
+    
+   
+}
+.emoji{
+    background-color: white;
+    font-size: 20px;
+    height: 60px;
+    text-align: justify;
+    padding: 5px;
+    margin-top: 50px;
+    border-radius: 15px;
+    width: 60%;
+    
+}

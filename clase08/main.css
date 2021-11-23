@@ -1,0 +1,25 @@
+/* @media screen { */
+    /* estilos a ejecutar
+} */
+p{
+    background-color: salmon;
+    width: 50%;
+}
+@media (max-width:600px) and (orientation: portrait){
+.green{
+    background-color: green;
+}
+    h1{
+    color: purple;
+}
+
+}
+@media (min-width:200px) and (max-width:600px){
+    p{
+        background-color: royalblue;
+        width: 50%;
+    }
+}
+/* tambien nos permite detectar la posicion
+del dispositivo usanto la propiedad: orientation
+con dos valores: portrait y landscape */

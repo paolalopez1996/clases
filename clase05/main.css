@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  /*
+  Consigna:
+  Asignar la propiedad que corresponda para que los ítems dentro de container se posicionen horizontalmente en orden inverso.
+  
+  JUSTIFY CONTENT ALINEA LOS ELEMENTOS EN EL EJE HORIZONTAL
+  ITEM ALIGN ALINEA LOS ELEMENTOS EN EL EJE VERTICAL
+  
+  PARA MANEJAR DIRECCION SIEMPRE HAY QUE PONEREL DISPLAY FLEXX PRIMERO 
+  PUEDE SER ROW ROW-REVERSE, COLUMN, Y COLUMN-REVERSE
+
+  FLEX-GROW: Indica cuánto más espacio a tomar del espacio libre restante
+   va a ocupar un elemento con respecto a otro.
+  */
+  
+  .container{
+    width: 70%;
+    margin: 25%  15%;
+    padding: 10px;
+    background-color: #d3d3d3;
+  }
+  
+  .item{
+    width: 100px;
+    max-height: 100px;
+    line-height: 100px;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #bc3b69;
+    display: flex;
+  }
+  
+  .container-row{
+   display: flex;
+   flex-direction: row;
+   flex-grow: 3;
+   
+  }
+  .container-rowreverse{
+      display: flex;
+      flex-direction: row-reverse;
+     
+
+  }
+
+  .container-column{
+      display: flex;
+      flex-direction: column;
+    
+  }
+  .container-columnreverse{
+      display: flex;
+      flex-direction: column-reverse;
+      
+  }
+  

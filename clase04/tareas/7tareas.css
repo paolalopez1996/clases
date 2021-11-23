@@ -1,0 +1,53 @@
+body{
+    background-color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+.segundocuadro{
+    background-color: #F9F9F9;
+    width: 25%;
+    height: 350px;
+    text-align:justify;
+    padding: 20px;
+    margin:0 auto;
+    border-style: ridge;
+}
+.tarea1{
+    display: block;
+    margin-top: 5px;
+    margin-left: 2px;
+    background-color: bisque;
+    height: 45px;
+    text-align:unset;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #FFE459;
+}
+.clear{
+    margin-left: 5px;
+}
+
+span{
+    padding: 5px;
+    margin-left: 10px;
+}
+.link{
+    background-color: #EEEEEE;
+    color: #A0937D;
+    height: 40px;
+    text-align:justify;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.link:hover{
+    background: #FFE459;
+    
+}

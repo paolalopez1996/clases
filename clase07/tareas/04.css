@@ -1,0 +1,68 @@
+body{
+    background: #2c3e50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.primercontenedor{
+    width: 80%;
+    height: 80px;
+    background-color: #1597BB;
+    margin-left: 100px;
+    margin: 150px;
+    margin-bottom: 0px;
+}
+.segundocontenedor{
+    width: 80%;
+    height: 80px;
+    background-color: #150E56;
+    margin-left: 100px;
+    margin: 150px;
+    margin-top: 0px;
+}
+.menu{
+    
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+   background-position: left;
+   position: relative;
+   top: 10px;  
+   left: 15px;
+}
+.heart{
+    float: right;
+    position: relative;
+    right: 10px;
+    top: 15px;
+    right: 250px;
+}
+.bell{
+    float: right;
+    position: relative;
+    top: 15px;
+    right: 100px;
+}
+.cart{
+    float: right;
+    position: relative;
+    top: 15px;
+    right: 10px;
+    left: 40px;
+}
+.list{
+    float: right;
+    position: relative;
+    top: 15px;
+    right: 5px;
+    left: 150px;
+}
+.numero7{
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 5px;
+    left: 55px;
+    color: black;
+    background-color: blanchedalmond;
+    border-radius: 50%;
+}

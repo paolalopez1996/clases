@@ -1,0 +1,28 @@
+.primero{
+    font-size: 150px;
+    background-color: greenyellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.segundo{
+    font-size: 50px;
+    background-color: hotpink;
+}
+.tercero{
+    font-size: 450%;
+    color: hotpink;
+    background-color: #185ADB;
+}
+.cuarto{
+    font-size: 90px;
+    background-color: #93329E;
+}
+
+.quinto{
+    font-size: 300px;
+    background-color: #008891;
+}
+.sexto{
+    font-size: 100px;
+    background-color: khaki;
+
+}

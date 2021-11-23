@@ -1,0 +1,47 @@
+
+    
+    /* los bordes deben tener 3 categorias : medida, solido y color
+} */
+/* box sizing: puede tener 2 propiedades --> content-box   /  border-box */
+/* overflow: esta propiedad acepta 2 valores: hidden y scroll 
+hidden escode y evita que deslice el scroll tambien evita que se desborde pero agrega una barra para que el usuario deslice */
+
+/* display:  propiedad que permite cambiar el comportamiento de un elemento */
+/* display: inline, blobk, inline-block, none, hidden */
+
+/* #contentbox{ background-color: antiquewhite;
+    box-sizing: content-box;
+    width: 216px;
+    height: 136px; 
+    border: 10px none palevioletred;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    /* respeta el tamaño del contenido y le suma bordes y rellenos para obtener
+    el tamaño total de lelemento *
+
+/* #borderbox{
+box-sizing: border-box;
+background-color: violet;
+width: 104px;
+height: 114px;
+border: 10px dotted blue;
+margin-bottom: 20px;
+va a ocupar el tamaño del contenido al agregar bordes y rellenos*/
+
+.texto{
+    
+    overflow-y: scroll;
+}
+.columna{
+    background: rgb(234, 243, 235);
+    color: black;
+    border: 2px solid black;
+    margin:50px;
+    border-radius: 15px;
+    box-shadow:  10px -10px 5px  10px #FFA6D5;
+    width: 24%;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow-y: scroll;
+
+ }

@@ -1,0 +1,76 @@
+.container{
+    background-color: coral;
+    display: flex;
+    width: 120%;
+    height: 500px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+.cuadro1{
+    background-color: white;
+    flex-basis: 25%;
+    margin: 2px;
+}
+.cuadro2{
+    background-color: white;
+    flex-basis: 25%;
+    margin: 2px;
+}
+.cuadro3{
+    background-color: white;
+    flex-basis: 25%;
+    margin: 2px;
+}
+.cuadro4{
+    background-color: white;
+    flex-basis: 25%;
+    margin: 2px;
+}
+
+.cuadro5{
+    background-color: white;
+    flex-basis: 20%;
+    margin: 2px;
+
+}
+
+
+
+.padre{
+    background-color: rgb(15, 228, 33);
+    display: flex;
+    width: 200%;
+    height: 500px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+.primero{
+    background-color: white;
+    flex-basis: 25%;
+    margin: 2px;
+}
+.segundo{
+    background-color: white;
+    flex-basis: 25%;
+    margin: 2px;
+}
+.tercero{
+    background-color: white;
+    flex-basis: 25%;
+    margin: 2px;
+}
+.cuarto{
+    background-color: white;
+    flex-basis: 25%;
+    margin: 2px;
+}
+.quinto{
+    background-color: white;
+    flex-basis: 50%;
+    margin: 2px;
+}
+.sexto{
+    background-color: white;
+    flex-basis: 50%;
+    margin: 2px;
+}

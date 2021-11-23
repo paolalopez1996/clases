@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  /*
+  Consigna:
+  Asignar las propiedades que correspondan para que el ítem 3 crezca el doble del ítem 1, y que el ítem 2 el doble del ítem 3.
+  */
+  .container{
+    min-width: 600px;
+    min-height: 500px;  
+    margin: auto;
+    background-color: #d3d3d3;
+    display: flex;
+  }
+  
+  .item{
+    width: 100px;
+    max-height: 100px;
+    line-height: 100px;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #bc3b69;
+  }
+  
+  #item-1{
+      flex-grow: 2;
+    
+  }
+  
+  #item-2{
+      flex-grow: 6;
+    
+  }
+  
+  #item-3{
+    flex-grow: 4;
+  }

@@ -1,0 +1,53 @@
+body{
+background: #c94b4b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+}
+.imagen{
+    display: flex;
+    display: inline-block;  
+}
+img{
+    border: 2px solid black; 
+    margin: 10px;
+    margin-left: 20px;
+    width: 400px;
+    height: 350px;
+    background-color: transparent;
+    justify-content: center;
+    border-radius: 25px;
+}
+.card{
+    width: 800x;
+    height: 400px;
+    background-color: antiquewhite;
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 10px solid #630000;
+  
+}
+.contenido{
+    flex-grow: 2;
+    width: 40%;
+    margin: 15px;
+    background-color: #96C7C1;
+   border-radius: 20px;
+   justify-content: flex-end;
+   padding: 5px;  
+   box-shadow: 2px 2px 5px;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 25px;
+    font-weight: 900;
+}
+h2{
+    font-size: 20px;
+}

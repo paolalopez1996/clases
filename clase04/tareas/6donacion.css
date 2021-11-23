@@ -1,0 +1,86 @@
+body{
+    background-color: #C0FEFC;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.padre{
+    background-color: white;
+    width: 34%;
+    height: 60%;
+    margin: 250px;
+    padding: 300px;
+    margin-left: 500px;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #FFDEFA;
+    border-radius: 10px;
+    box-shadow: 10px -10px 5px #DDFFBC;
+    border: 4px solid #66DE93;
+}
+.titulo{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    
+    
+}
+.precio1{
+    display: inline-block;
+    border: 1px solid #93329E;
+    margin: auto;
+    width: 15%;
+    justify-content: space-between;
+    margin-right: 40px;
+    border-radius: 10px;
+    
+}
+.precio2{
+    display: inline-block;
+    border: 1px solid #93329E;
+    margin: auto;
+    width: 15%;
+    justify-content: space-between;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+.precio3{
+    display: inline-block;
+    border: 1px solid #93329E;
+    margin: auto;
+    width: 15%;
+    justify-content: space-between;
+    background-color: #B5EAEA;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+.precio4{
+    display: inline-block;
+    border: 1px solid #93329E;
+    margin: auto;
+    width: 15%;
+    justify-content: space-between;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+.continue{
+    background-color: #B5EAEA;
+    width: 20%;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 180px;
+    padding-bottom:40px;
+    padding-top: 10px;
+    text-align:center;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #66DE93;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+.continue:hover{
+    background: #66DE93;
+    border-radius: 10px;
+}
+

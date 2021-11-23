@@ -1,0 +1,63 @@
+body{
+    background-color: 28FFBF;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.padre{
+    display: inline-block;
+    width: 400px;
+    margin: 600px;
+    margin-top: 200px;
+    padding: 30px;
+    box-sizing: content-box;
+    background-color: #F0D9FF;
+    border: 2px solid #091353;
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px black;
+}
+
+.titulo{
+    font-family:'Red Hat Mono', monospace;
+    font-size: 25px;
+}
+h2,span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+.viewall{
+    margin: 35px;
+    margin-left: 38px;
+    border: 2px solid #FDB9FC ;
+    color: #B2B1B9;
+    padding: 5px;
+}
+.primercurso{
+    
+    border-radius: 10px;
+    border: 5px solid  #FDB9FC ;
+    box-shadow: -10px;
+    padding: 7px;
+    padding-top: 5px;
+    height: 50px;
+    box-shadow: -5px 0.5px salmon;
+    text-align: justify;
+}
+.segundocurso{
+    border-radius: 10px;
+    border: 5px solid #FDB9FC ;
+    box-shadow: -10px;
+    padding: 7px;
+    padding-top: 5px;
+    height: 50px;
+    box-shadow: -5px 0.5px #FF00E4;
+    text-align: justify;
+}
+.tercercurso{
+    border-radius: 10px;
+    border: 5px solid #FDB9FC ;
+    box-shadow: -10px;
+    padding: 7px;
+    padding-top: 5px;
+    height: 50px;
+    box-shadow: -5px 0.5px #2D46B9;
+    text-align: justify;
+}

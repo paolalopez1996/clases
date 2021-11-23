@@ -1,0 +1,15 @@
+.izquierda{
+    font-size: 100px;
+    text-align: left;
+    background-color: #E26A2C;
+}
+.centro{
+    font-size: 150px;
+    text-align: center;
+    background-color: #FF8243;
+}
+.derecha{
+    font-size: 200px;
+    text-align: right;
+    background-color: #FDA65D;
+}
