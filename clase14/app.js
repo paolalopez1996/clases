@@ -15,13 +15,14 @@ console.log(frutas[frutas.length -1]);
 
 //push == agregar uno o mas elementos al FINAL del arreglo
 
-let persona ={
+let persona = {
     edad: 24,
     profesion: 'carpintero',
     tools: [
         'martillo',
         'cable',
         'flecha',
+
     ]
 }
 const pisosEdificio = [1,2,3,4];
@@ -86,7 +87,7 @@ console.log(canciones.indexOf('baile'));
 console.log(canciones.indexOf('dance'));
 console.log(canciones.indexOf('noExiste'));
 
-//totring une los elementos del array conviertiendolso en uno solo
+//tostring une los elementos del array conviertiendolso en uno solo
 console.log(canciones.toString());
 console.log('---------')
 //recorrer arreglos 
@@ -167,12 +168,3 @@ console.log('total de costos', totalCostos);
 
 
 
-const arrayNumbers = [5,7,99,34,54,2,12];
-const obtenerNumeroMenor = (numeros) => {
-const arregloOrdenado = arrayNumbers.sort((a,b) =>{
-    return a - b;
-} );
-console.log(arregloOrdenado.shift());
-
-}
-obtenerNumeroMenor(arrayNumbers);

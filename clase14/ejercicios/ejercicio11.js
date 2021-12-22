@@ -7,15 +7,14 @@
 
 
 
-function filtrarPorLongitudMayorA(palabras, long1){
-  for (i=0; i<palabras.length; i++){
-      if (palabras[i].length > long1){
-        long1= arr[i].length;
-      }
+const filtrarPorLongitudMayorA = (palabras) => {
+ 
+     filtrarPorLongitudMayorA = palabras.filter((palabra)=>{
+      str = palabras.slice();
+      console.log(str); 
+    })
+  };
 
-  }
-  return console.log(long1);
-}
 
 console.log((filtrarPorLongitudMayorA( 4 ['dia','remolacha','azul','sorpresa','te','verde'])));
 

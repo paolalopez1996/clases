@@ -10,7 +10,7 @@
 const recortar = (cantidadLetras, palabras) => {
 
 
-let textoModificado = palabras.slice(0, - cantidadLetras)
+let textoModificado = palabras.slice( - cantidadLetras.length)
 console.log(textoModificado)
 
 

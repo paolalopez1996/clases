@@ -9,21 +9,24 @@
 
 const germinar = (plantines) => {
 
+
+
+  
    let result =  '';
 
     for (let i= 1; i < plantines.length; i++) {
 
-        if (plantines[i]  === '🌱'  &&  plantines[i-1] === '🌷') {
+        if (plantines[i]  === 'p'  &&  plantines[i-1] === 'c') {
 
           return  result = plantines[i-1];
 
            
-        }  else if  (plantines[i]  === '🌱'  && plantines[i-1] === '🌻') {
+        }  else if  (plantines[i]  === 'p'  && plantines[i-1] === 'g') {
 
           return  result = plantines[i-1];
        
        
-        }else if  (plantines[i]  === '🌱'  && plantines[i-1] === '🌸') {
+        }else if  (plantines[i]  === 'p'  && plantines[i-1] === 'l') {
 
           return  result = plantines[i-1];
           
@@ -36,6 +39,6 @@ const germinar = (plantines) => {
     return result;
 }
 
-console.log(germinar('🌷🌱🌻🌱🌸🌱🌷🌱🌻🌱🌸🌱')) // '🌷🌷🌻🌻🌸🌸🌷🌷🌻🌻🌸🌸'
-console.log(germinar('🌷🌱🌱🌱🌻🌱🌱🌸🌱🌱🌱🌱')) // '🌷🌷🌷🌷🌻🌻🌻🌸🌸🌸🌸🌸'
-console.log(germinar('🌻🌸🌱🌷🌻🌱🌱🌷🌷🌱🌱🌱')) // '🌻🌸🌸🌷🌻🌻🌻🌷🌷🌷🌷🌷'
+console.log(germinar('cpgplpcpgplp')) // '🌷🌷🌻🌻🌸🌸🌷🌷🌻🌻🌸🌸' ccggllccggll
+//console.log(germinar('🌷🌱🌱🌱🌻🌱🌱🌸🌱🌱🌱🌱')) // '🌷🌷🌷🌷🌻🌻🌻🌸🌸🌸🌸🌸'
+//console.log(germinar('🌻🌸🌱🌷🌻🌱🌱🌷🌷🌱🌱🌱')) // '🌻🌸🌸🌷🌻🌻🌻🌷🌷🌷🌷🌷'

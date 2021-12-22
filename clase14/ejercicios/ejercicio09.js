@@ -8,7 +8,8 @@
 const multiplicar = (multiplicador, numeros) => {
     var result = [];
   for (var i = 0; i < numeros.length; i++){
-   result = numeros.map(x => x * multiplicador); 
+   
+    result = numeros.map(x => x * multiplicador); 
    
 
     return result;
